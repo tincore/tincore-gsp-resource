@@ -18,14 +18,14 @@ You can build the program yourself or, temporarily, grab already built packages 
 
 There are two jar files that you may execute:
 
-##Resource server:
+## Resource server:
 tincore-gsp-resource-<VERSION>.jar
 
 This is the main program that you can use to syncronize Gliderun App with your PC. This program runs, by default, on port 7678. 
 
 To execute you have two options:
 
-###Multiple user with security:
+### Multiple user with security:
 java -jar tincore-gsp-resource-<VERSION>.jar
 
 In multiple user mode several users can share the same server. This is the ideal situation but it may be a bit more complicated to setup. 
@@ -39,7 +39,7 @@ http://localhost:7679/uaa/login
 
 The authorisation server is needed to store users and passwords. When you try to connect with Gliderun Android app you may be presented with a login screen to identify or register your user.
 
-###Single user without security:
+### Single user without security:
 
 java -jar tincore-gsp-resource-<VERSION>.jar --spring.profiles.active=singleuser
 
