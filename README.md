@@ -14,7 +14,7 @@ https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.
 
 # Installation and execution
 
-You can build the program yourself or, temporarily, grab already built packages from https://github.com/tincore/gliderun-server/tree/master/build
+You can build the program yourself or, temporarily, grab already built packages from https://github.com/tincore/releases/tree/master/build
 
 There are two jar files that you may execute:
 
