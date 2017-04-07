@@ -30,7 +30,7 @@ java -jar tincore-gsp-resource-<VERSION>.jar
 
 In multiple user mode several users can share the same server. This is the ideal situation but it may be a bit more complicated to setup. 
 
-You would need an authorisation server to be running. Get it from https://github.com/tincore/gliderun-aut if you want to build it or, alternatively, from https://github.com/tincore/gliderun-server/tree/master/build.
+You would need an authorization server to be running. Get it from https://github.com/tincore/gliderun-aut if you want to build it or, alternatively, from https://github.com/tincore/gliderun-server/tree/master/build.
 
 Execute with the command:
 java -jar tincore-aut-<VERSION>.jar
